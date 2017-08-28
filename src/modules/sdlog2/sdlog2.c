@@ -1468,12 +1468,12 @@ int sdlog2_thread_main(int argc, char *argv[])
 		 * We need to do this because should only poll further below if we're
 		 * actually going to orb_copy the data after the poll. */
 
-		/* --- VEHICLE COMMAND - LOG MANAGEMENT --- */
-		if (copy_if_updated(ORB_ID(vehicle_command), &subs.cmd_sub, &buf_cmd)) {
-			handle_command(&buf_cmd);
-		}
+        /* --- VEHICLE COMMAND - LOG MANAGEMENT --- */
+        if (copy_if_updated(ORB_ID(vehicle_command), &subs.cmd_sub, &buf_cmd)) {
+            handle_command(&buf_cmd);
+        }
 
-		/* --- VEHICLE STATUS - LOG MANAGEMENT --- */
+        /* --- VEHICLE STATUS - LOG MANAGEMENT --- */
 		bool status_updated = copy_if_updated(ORB_ID(vehicle_status), &subs.status_sub, &buf_status);
 
 		if (status_updated) {
@@ -2394,29 +2394,29 @@ int check_free_space()
 
 void handle_command(struct vehicle_command_s *cmd)
 {
-	int param;
+    int param;
 
-	/* request to set different system mode */
-	switch (cmd->command) {
+    /* request to set different system mode */
+    switch (cmd->command) {
 
-	case VEHICLE_CMD_PREFLIGHT_STORAGE:
-		param = (int)(cmd->param3 + 0.5f);
+    case VEHICLE_CMD_PREFLIGHT_STORAGE:
+        param = (int)(cmd->param3 + 0.5f);
 
-		if (param == 1)	{
-			sdlog2_start_log();
+        if (param == 1)	{
+            sdlog2_start_log();
 
-		} else if (param == 2)	{
-			sdlog2_stop_log();
-		} else {
-			// Silently ignore non-matching command values, as they could be for params.
-		}
+        } else if (param == 2)	{
+            sdlog2_stop_log();
+        } else {
+            // Silently ignore non-matching command values, as they could be for params.
+        }
 
-		break;
+        break;
 
-	default:
-		/* silently ignore */
-		break;
-	}
+    default:
+        /* silently ignore */
+        break;
+    }
 }
 
 void handle_status(struct vehicle_status_s *status)

@@ -125,7 +125,8 @@ execute_process(
 #
 # must come before project to set toolchain
 
-set(CONFIG "posix_sitl_default" CACHE STRING "desired configuration")
+# set(CONFIG "posix_sitl_default" CACHE STRING "desired configuration")
+set(CONFIG "nuttx_px4fmu-v3_rover" CACHE STRING "desired configuration")
 
 string(REPLACE "_" ";" config_args ${CONFIG})
 list(GET config_args 0 OS)
@@ -140,12 +141,16 @@ set(THREADS "4" CACHE STRING "number of threads to use for external build proces
 set(DEBUG_PORT "/dev/ttyACM0" CACHE STRING "debugging port")
 set(EXTERNAL_MODULES_LOCATION "" CACHE STRING "External modules source location")
 
+
 if (NOT EXTERNAL_MODULES_LOCATION STREQUAL "")
 	get_filename_component(EXTERNAL_MODULES_LOCATION "${EXTERNAL_MODULES_LOCATION}" ABSOLUTE)
 endif()
 
 list(APPEND CMAKE_MODULE_PATH "${PX4_SOURCE_DIR}/cmake")
 message(STATUS "CMAKE_MODULE_PATH: ${CMAKE_MODULE_PATH}")
+message(STATUS "EXTERNAL_MODULES_LOCATION: ${EXTERNAL_MODULES_LOCATION}")
+
+
 set(config_module "configs/${CONFIG}")
 include(${config_module})
 
@@ -447,6 +452,7 @@ foreach(module ${config_module_list})
 		STRING(REGEX REPLACE "/" "__" EXT_MODULE_PREFIX ${EXT_MODULE})
 		add_subdirectory(${module} ${PX4_BINARY_DIR}/${EXT_MODULE_PREFIX})
 	else()
+                message(STATUS "src/${module}")
 		add_subdirectory(src/${module})
 	endif()
 	px4_mangle_name(${module} mangled_name)

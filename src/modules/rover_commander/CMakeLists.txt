@@ -30,13 +30,33 @@
 # POSSIBILITY OF SUCH DAMAGE.
 #
 ############################################################################
+set(PATH_COMMANDER "../commander")
+
+include_directories(${PATH_COMMANDER})
+
 px4_add_module(
-	MODULE examples__px4_simple_app
-	MAIN px4_simple_app
-	STACK_MAIN 2000
+	MODULE modules__rover_commander
+	MAIN commander
+	STACK_MAIN 4096
+	STACK_MAX 2450
+	COMPILE_FLAGS
+        INCLUDES
+                rover_commander
 	SRCS
-		px4_simple_app.c
+                rover_commander.cpp
+		${PATH_COMMANDER}/state_machine_helper.cpp
+		${PATH_COMMANDER}/commander_helper.cpp
+		${PATH_COMMANDER}/calibration_routines.cpp
+		${PATH_COMMANDER}/accelerometer_calibration.cpp
+		${PATH_COMMANDER}/gyro_calibration.cpp
+		${PATH_COMMANDER}/mag_calibration.cpp
+		${PATH_COMMANDER}/baro_calibration.cpp
+		${PATH_COMMANDER}/rc_calibration.cpp
+		${PATH_COMMANDER}/airspeed_calibration.cpp
+		${PATH_COMMANDER}/esc_calibration.cpp
+		${PATH_COMMANDER}/PreflightCheck.cpp
 	DEPENDS
 		platforms__common
+
 	)
-# vim: set noet ft=cmake fenc=utf-8 ff=u
+# vim: set noet ft=cmake fenc=utf-8 ff=unix :
