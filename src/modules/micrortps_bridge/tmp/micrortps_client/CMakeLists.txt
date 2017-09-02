@@ -108,13 +108,11 @@ px4_add_module(
     MODULE modules__micrortps_bridge__micrortps_client
     MAIN micrortps_client
     STACK_MAIN 4096
-    INCLUDES
-        micrortps_client
     SRCS
         microRTPS_transport.cpp
         microRTPS_client.cpp
+        microRTPS_client.h
         microRTPS_client_main.cpp
-	microRTPS_client_dummy.cpp
     DEPENDS
         platforms__common
     )
