@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+   <FileVersion major="1" minor="6" />
+   <Project>
+      <Option title="micrortps_agent" />
+      <Option makefile_is_custom="1" />
+      <Option compiler="gcc" />
+      <Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\..\..\usr\;CMake Files\..\..\..\..\..\..\..\..\usr\local\;CMake Files\..\..\..\..\..\..\..\..\usr\local\lib\;CMake Files\..\..\..\..\..\..\..\..\usr\local\lib\fastrtps\;CMake Files\..\..\..\..\..\..\..\..\usr\local\lib\fastrtps\cmake\;CMake Files\..\..\..\..\..\..\..\..\usr\local\lib\fastcdr\;CMake Files\..\..\..\..\..\..\..\..\usr\local\lib\fastcdr\cmake\;" />
+      <Build>
+      <Target title="all">
+         <Option working_dir="/home/guillaume/src/Firmware/src/modules/micrortps_bridge/build-micrortps_agent-Desktop-Release" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/home/guillaume/ninja/ninja -v all" />
+            <CompileFile command="/home/guillaume/ninja/ninja -v &quot;$file&quot;" />
+            <Clean command="/home/guillaume/ninja/ninja -v clean" />
+            <DistClean command="/home/guillaume/ninja/ninja -v clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="edit_cache">
+         <Option working_dir="/home/guillaume/src/Firmware/src/modules/micrortps_bridge/build-micrortps_agent-Desktop-Release" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/home/guillaume/ninja/ninja -v edit_cache" />
+            <CompileFile command="/home/guillaume/ninja/ninja -v &quot;$file&quot;" />
+            <Clean command="/home/guillaume/ninja/ninja -v clean" />
+            <DistClean command="/home/guillaume/ninja/ninja -v clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="rebuild_cache">
+         <Option working_dir="/home/guillaume/src/Firmware/src/modules/micrortps_bridge/build-micrortps_agent-Desktop-Release" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/home/guillaume/ninja/ninja -v rebuild_cache" />
+            <CompileFile command="/home/guillaume/ninja/ninja -v &quot;$file&quot;" />
+            <Clean command="/home/guillaume/ninja/ninja -v clean" />
+            <DistClean command="/home/guillaume/ninja/ninja -v clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="micrortps_agent">
+         <Option output="/home/guillaume/src/Firmware/src/modules/micrortps_bridge/build-micrortps_agent-Desktop-Release/micrortps_agent" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/guillaume/src/Firmware/src/modules/micrortps_bridge/build-micrortps_agent-Desktop-Release" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/home/guillaume/ninja/ninja -v micrortps_agent" />
+            <CompileFile command="/home/guillaume/ninja/ninja -v &quot;$file&quot;" />
+            <Clean command="/home/guillaume/ninja/ninja -v clean" />
+            <DistClean command="/home/guillaume/ninja/ninja -v clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="micrortps_agent/fast">
+         <Option output="/home/guillaume/src/Firmware/src/modules/micrortps_bridge/build-micrortps_agent-Desktop-Release/micrortps_agent" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/guillaume/src/Firmware/src/modules/micrortps_bridge/build-micrortps_agent-Desktop-Release" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/home/guillaume/ninja/ninja -v micrortps_agent/fast" />
+            <CompileFile command="/home/guillaume/ninja/ninja -v &quot;$file&quot;" />
+            <Clean command="/home/guillaume/ninja/ninja -v clean" />
+            <DistClean command="/home/guillaume/ninja/ninja -v clean" />
+         </MakeCommands>
+      </Target>
+      </Build>
+      <Unit filename="/home/guillaume/src/Firmware/src/modules/micrortps_bridge/micrortps_agent/RtpsTopics.cpp">
+         <Option target="micrortps_agent"/>
+      </Unit>
+      <Unit filename="/home/guillaume/src/Firmware/src/modules/micrortps_bridge/micrortps_agent/RtpsTopics.h">
+         <Option target="micrortps_agent"/>
+      </Unit>
+      <Unit filename="/home/guillaume/src/Firmware/src/modules/micrortps_bridge/micrortps_agent/microRTPS_agent.cpp">
+         <Option target="micrortps_agent"/>
+      </Unit>
+      <Unit filename="/home/guillaume/src/Firmware/src/modules/micrortps_bridge/micrortps_agent/microRTPS_transport.cpp">
+         <Option target="micrortps_agent"/>
+      </Unit>
+      <Unit filename="/home/guillaume/src/Firmware/src/modules/micrortps_bridge/micrortps_agent/microRTPS_transport.h">
+         <Option target="micrortps_agent"/>
+      </Unit>
+      <Unit filename="/home/guillaume/src/Firmware/src/modules/micrortps_bridge/micrortps_agent/sensor_baro_.cpp">
+         <Option target="micrortps_agent"/>
+      </Unit>
+      <Unit filename="/home/guillaume/src/Firmware/src/modules/micrortps_bridge/micrortps_agent/sensor_baro_.h">
+         <Option target="micrortps_agent"/>
+      </Unit>
+      <Unit filename="/home/guillaume/src/Firmware/src/modules/micrortps_bridge/micrortps_agent/sensor_baro_PubSubTypes.cpp">
+         <Option target="micrortps_agent"/>
+      </Unit>
+      <Unit filename="/home/guillaume/src/Firmware/src/modules/micrortps_bridge/micrortps_agent/sensor_baro_PubSubTypes.h">
+         <Option target="micrortps_agent"/>
+      </Unit>
+      <Unit filename="/home/guillaume/src/Firmware/src/modules/micrortps_bridge/micrortps_agent/sensor_baro_Publisher.cpp">
+         <Option target="micrortps_agent"/>
+      </Unit>
+      <Unit filename="/home/guillaume/src/Firmware/src/modules/micrortps_bridge/micrortps_agent/sensor_baro_Publisher.h">
+         <Option target="micrortps_agent"/>
+      </Unit>
+      <Unit filename="/home/guillaume/src/Firmware/src/modules/micrortps_bridge/micrortps_agent/sensor_combined_.cpp">
+         <Option target="micrortps_agent"/>
+      </Unit>
+      <Unit filename="/home/guillaume/src/Firmware/src/modules/micrortps_bridge/micrortps_agent/sensor_combined_.h">
+         <Option target="micrortps_agent"/>
+      </Unit>
+      <Unit filename="/home/guillaume/src/Firmware/src/modules/micrortps_bridge/micrortps_agent/sensor_combined_PubSubTypes.cpp">
+         <Option target="micrortps_agent"/>
+      </Unit>
+      <Unit filename="/home/guillaume/src/Firmware/src/modules/micrortps_bridge/micrortps_agent/sensor_combined_PubSubTypes.h">
+         <Option target="micrortps_agent"/>
+      </Unit>
+      <Unit filename="/home/guillaume/src/Firmware/src/modules/micrortps_bridge/micrortps_agent/sensor_combined_Subscriber.cpp">
+         <Option target="micrortps_agent"/>
+      </Unit>
+      <Unit filename="/home/guillaume/src/Firmware/src/modules/micrortps_bridge/micrortps_agent/sensor_combined_Subscriber.h">
+         <Option target="micrortps_agent"/>
+      </Unit>
+      <Unit filename="/home/guillaume/src/Firmware/src/modules/micrortps_bridge/micrortps_agent/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\" />
+      </Unit>
+      <Unit filename="/home/guillaume/src/Firmware/src/modules/micrortps_bridge/micrortps_agent/../../../../../../../../usr/local/lib/fastrtps/cmake/fastrtpsConfigVersion.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\usr\local\lib\fastrtps\cmake\" />
+      </Unit>
+      <Unit filename="/home/guillaume/src/Firmware/src/modules/micrortps_bridge/micrortps_agent/../../../../../../../../usr/local/lib/fastrtps/cmake/fastrtpsConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\usr\local\lib\fastrtps\cmake\" />
+      </Unit>
+      <Unit filename="/home/guillaume/src/Firmware/src/modules/micrortps_bridge/micrortps_agent/../../../../../../../../usr/local/lib/fastrtps/cmake/fastrtpsTargets.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\usr\local\lib\fastrtps\cmake\" />
+      </Unit>
+      <Unit filename="/home/guillaume/src/Firmware/src/modules/micrortps_bridge/micrortps_agent/../../../../../../../../usr/local/lib/fastrtps/cmake/fastrtpsTargets-release.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\usr\local\lib\fastrtps\cmake\" />
+      </Unit>
+      <Unit filename="/home/guillaume/src/Firmware/src/modules/micrortps_bridge/micrortps_agent/../../../../../../../../usr/local/lib/fastcdr/cmake/fastcdrConfigVersion.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\usr\local\lib\fastcdr\cmake\" />
+      </Unit>
+      <Unit filename="/home/guillaume/src/Firmware/src/modules/micrortps_bridge/micrortps_agent/../../../../../../../../usr/local/lib/fastcdr/cmake/fastcdrConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\usr\local\lib\fastcdr\cmake\" />
+      </Unit>
+      <Unit filename="/home/guillaume/src/Firmware/src/modules/micrortps_bridge/micrortps_agent/../../../../../../../../usr/local/lib/fastcdr/cmake/fastcdrTargets.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\usr\local\lib\fastcdr\cmake\" />
+      </Unit>
+      <Unit filename="/home/guillaume/src/Firmware/src/modules/micrortps_bridge/micrortps_agent/../../../../../../../../usr/local/lib/fastcdr/cmake/fastcdrTargets-release.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\usr\local\lib\fastcdr\cmake\" />
+      </Unit>
+   </Project>
+</CodeBlocks_project_file>
