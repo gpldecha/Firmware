@@ -113,6 +113,7 @@ set(msg_file_names
 	vehicle_command.msg
 	vehicle_command_ack.msg
 	vehicle_control_mode.msg
+	rover_control_mode.msg
 	vehicle_force_setpoint.msg
 	vehicle_global_position.msg
 	vehicle_gps_position.msg
@@ -122,6 +123,7 @@ set(msg_file_names
 	vehicle_rates_setpoint.msg
 	vehicle_roi.msg
 	vehicle_status.msg
+	rover_status.msg
 	vehicle_status_flags.msg
 	vtol_vehicle_status.msg
 	wind_estimate.msg

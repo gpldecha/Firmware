@@ -44,8 +44,7 @@ px4_add_module(
                 rover_commander
 	SRCS
                 rover_commander.cpp
-		${PATH_COMMANDER}/state_machine_helper.cpp
-		${PATH_COMMANDER}/commander_helper.cpp
+                ${PATH_COMMANDER}/commander_helper.cpp
 		${PATH_COMMANDER}/calibration_routines.cpp
 		${PATH_COMMANDER}/accelerometer_calibration.cpp
 		${PATH_COMMANDER}/gyro_calibration.cpp

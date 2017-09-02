@@ -35,8 +35,6 @@ set(config_module_list
 	drivers/mkblctrl
 	drivers/mpu6000
 	drivers/mpu9250
-	drivers/ms4525_airspeed
-	drivers/ms5525_airspeed
 	drivers/ms5611
 	drivers/oreoled
 	drivers/pwm_input
@@ -82,29 +80,13 @@ set(config_module_list
 	systemcmds/ver
 
 	#
-	# Testing
-	#
-	drivers/sf0x/sf0x_tests
-	drivers/test_ppm
-	#lib/rc/rc_tests
-	modules/commander/commander_tests
-	lib/controllib/controllib_test
-	modules/mavlink/mavlink_tests
-	modules/mc_pos_control/mc_pos_control_tests
-	modules/unit_test
-	modules/uORB/uORB_tests
-	systemcmds/tests
-
-	#
 	# General system control
 	#
 	modules/rover_commander
 	modules/events
 	modules/gpio_led
-	# modules/land_detector
 	modules/load_mon
 	modules/mavlink
-	modules/navigator
 	modules/uavcan
 	modules/camera_feedback
 
@@ -118,15 +100,9 @@ set(config_module_list
 
 	#
 	# Vehicle Control
-	#
-	# modules/fw_att_control
-	# modules/fw_pos_control_l1
 	modules/gnd_att_control 
 	modules/gnd_pos_control 
-	# modules/mc_att_control
-	# modules/mc_pos_control
-	# modules/vtol_att_control
-
+	
 	#
 	# Logging
 	#
@@ -141,6 +117,10 @@ set(config_module_list
 	modules/systemlib
 	modules/systemlib/mixer
 	modules/uORB
+
+    	# micro RTPS
+        modules/micrortps_bridge/micrortps_client
+
 
 	#
 	# Libraries
@@ -170,46 +150,15 @@ set(config_module_list
 	platforms/nuttx/px4_layer
 
 	#
-	# OBC challenge
-	#
-	# modules/bottle_drop
-
-	#
 	# Rover apps
 	#
 	examples/rover_steering_control
-
-	#
-	# Segway
-	#
-	# examples/segway
-
-	#
-	# Demo apps
-	#
-
-	# Tutorial code from
-	# https://px4.io/dev/px4_simple_app
-	# examples/px4_simple_app
-
-	# Tutorial code from
-	# https://px4.io/dev/daemon
-	# examples/px4_daemon_app
-
-	# Tutorial code from
-	# https://px4.io/dev/debug_values
-	# examples/px4_mavlink_debug
-
-	# Tutorial code from
-	# https://px4.io/dev/example_fixedwing_control
-	# examples/fixedwing_control
-
-	# Hardware test
-	# examples/hwtest
-
-	# EKF
-	# examples/ekf_att_pos_estimator
 )
+
+set(config_rtps_send_topics
+  sensor_combined
+)
+
 
 set(config_extra_builtin_cmds
 	serdis
