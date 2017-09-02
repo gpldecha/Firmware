@@ -1,0 +1,9 @@
+struct sensor_baro_
+{
+	unsigned long long error_count;
+	float pressure;
+	float altitude;
+	float temperature;
+	unsigned long device_id;
+
+}; // struct sensor_baro_
