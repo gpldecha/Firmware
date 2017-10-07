@@ -1,0 +1,2 @@
+/opt/gcc-arm-none-eabi-4_9-2015q3/bin/arm-none-eabi-ar qc libdrivers__gps.a  CMakeFiles/drivers__gps.dir/gps.cpp.obj CMakeFiles/drivers__gps.dir/devices/src/gps_helper.cpp.obj CMakeFiles/drivers__gps.dir/devices/src/mtk.cpp.obj CMakeFiles/drivers__gps.dir/devices/src/ashtech.cpp.obj CMakeFiles/drivers__gps.dir/devices/src/ubx.cpp.obj
+/opt/gcc-arm-none-eabi-4_9-2015q3/bin/arm-none-eabi-ranlib libdrivers__gps.a

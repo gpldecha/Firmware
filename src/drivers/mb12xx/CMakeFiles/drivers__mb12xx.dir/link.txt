@@ -1,0 +1,2 @@
+/opt/gcc-arm-none-eabi-4_9-2015q3/bin/arm-none-eabi-ar qc libdrivers__mb12xx.a  CMakeFiles/drivers__mb12xx.dir/mb12xx.cpp.obj
+/opt/gcc-arm-none-eabi-4_9-2015q3/bin/arm-none-eabi-ranlib libdrivers__mb12xx.a

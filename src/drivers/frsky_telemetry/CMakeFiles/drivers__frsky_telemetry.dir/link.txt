@@ -1,0 +1,2 @@
+/opt/gcc-arm-none-eabi-4_9-2015q3/bin/arm-none-eabi-ar qc libdrivers__frsky_telemetry.a  CMakeFiles/drivers__frsky_telemetry.dir/frsky_data.c.obj CMakeFiles/drivers__frsky_telemetry.dir/sPort_data.c.obj CMakeFiles/drivers__frsky_telemetry.dir/frsky_telemetry.c.obj
+/opt/gcc-arm-none-eabi-4_9-2015q3/bin/arm-none-eabi-ranlib libdrivers__frsky_telemetry.a

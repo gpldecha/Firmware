@@ -1,0 +1,2 @@
+/opt/gcc-arm-none-eabi-4_9-2015q3/bin/arm-none-eabi-ar qc libmodules__sensors.a  CMakeFiles/modules__sensors.dir/voted_sensors_update.cpp.obj CMakeFiles/modules__sensors.dir/rc_update.cpp.obj CMakeFiles/modules__sensors.dir/sensors.cpp.obj CMakeFiles/modules__sensors.dir/parameters.cpp.obj CMakeFiles/modules__sensors.dir/temperature_compensation.cpp.obj
+/opt/gcc-arm-none-eabi-4_9-2015q3/bin/arm-none-eabi-ranlib libmodules__sensors.a

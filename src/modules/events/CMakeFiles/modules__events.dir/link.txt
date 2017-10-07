@@ -1,0 +1,2 @@
+/opt/gcc-arm-none-eabi-4_9-2015q3/bin/arm-none-eabi-ar qc libmodules__events.a  CMakeFiles/modules__events.dir/send_event.cpp.obj CMakeFiles/modules__events.dir/temperature_calibration/accel.cpp.obj CMakeFiles/modules__events.dir/temperature_calibration/baro.cpp.obj CMakeFiles/modules__events.dir/temperature_calibration/gyro.cpp.obj CMakeFiles/modules__events.dir/temperature_calibration/task.cpp.obj
+/opt/gcc-arm-none-eabi-4_9-2015q3/bin/arm-none-eabi-ranlib libmodules__events.a

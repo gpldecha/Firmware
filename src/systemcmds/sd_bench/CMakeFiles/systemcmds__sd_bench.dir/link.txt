@@ -1,0 +1,2 @@
+/opt/gcc-arm-none-eabi-4_9-2015q3/bin/arm-none-eabi-ar qc libsystemcmds__sd_bench.a  CMakeFiles/systemcmds__sd_bench.dir/sd_bench.c.obj
+/opt/gcc-arm-none-eabi-4_9-2015q3/bin/arm-none-eabi-ranlib libsystemcmds__sd_bench.a

@@ -1,0 +1,2 @@
+/opt/gcc-arm-none-eabi-4_9-2015q3/bin/arm-none-eabi-ar qc libmodules__camera_feedback.a  CMakeFiles/modules__camera_feedback.dir/camera_feedback.cpp.obj
+/opt/gcc-arm-none-eabi-4_9-2015q3/bin/arm-none-eabi-ranlib libmodules__camera_feedback.a

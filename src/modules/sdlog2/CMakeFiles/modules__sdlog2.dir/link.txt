@@ -1,0 +1,2 @@
+/opt/gcc-arm-none-eabi-4_9-2015q3/bin/arm-none-eabi-ar qc libmodules__sdlog2.a  CMakeFiles/modules__sdlog2.dir/sdlog2.c.obj CMakeFiles/modules__sdlog2.dir/logbuffer.c.obj
+/opt/gcc-arm-none-eabi-4_9-2015q3/bin/arm-none-eabi-ranlib libmodules__sdlog2.a

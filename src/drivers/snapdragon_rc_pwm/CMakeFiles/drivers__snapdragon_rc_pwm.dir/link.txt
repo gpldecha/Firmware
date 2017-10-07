@@ -1,0 +1,2 @@
+/opt/gcc-arm-none-eabi-4_9-2015q3/bin/arm-none-eabi-ar qc libdrivers__snapdragon_rc_pwm.a  CMakeFiles/drivers__snapdragon_rc_pwm.dir/snapdragon_rc_pwm.cpp.obj
+/opt/gcc-arm-none-eabi-4_9-2015q3/bin/arm-none-eabi-ranlib libdrivers__snapdragon_rc_pwm.a

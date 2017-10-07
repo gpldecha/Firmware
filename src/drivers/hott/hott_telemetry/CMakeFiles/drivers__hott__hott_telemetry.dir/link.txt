@@ -1,0 +1,2 @@
+/opt/gcc-arm-none-eabi-4_9-2015q3/bin/arm-none-eabi-ar qc libdrivers__hott__hott_telemetry.a  CMakeFiles/drivers__hott__hott_telemetry.dir/hott_telemetry.cpp.obj
+/opt/gcc-arm-none-eabi-4_9-2015q3/bin/arm-none-eabi-ranlib libdrivers__hott__hott_telemetry.a

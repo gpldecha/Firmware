@@ -1,0 +1,2 @@
+/opt/gcc-arm-none-eabi-4_9-2015q3/bin/arm-none-eabi-ar qc libdrivers__lis3mdl.a  CMakeFiles/drivers__lis3mdl.dir/lis3mdl_i2c.cpp.obj CMakeFiles/drivers__lis3mdl.dir/lis3mdl_spi.cpp.obj CMakeFiles/drivers__lis3mdl.dir/lis3mdl.cpp.obj
+/opt/gcc-arm-none-eabi-4_9-2015q3/bin/arm-none-eabi-ranlib libdrivers__lis3mdl.a

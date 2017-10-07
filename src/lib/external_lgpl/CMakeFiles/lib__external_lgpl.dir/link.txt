@@ -1,0 +1,2 @@
+/opt/gcc-arm-none-eabi-4_9-2015q3/bin/arm-none-eabi-ar qc liblib__external_lgpl.a  CMakeFiles/lib__external_lgpl.dir/tecs/tecs.cpp.obj
+/opt/gcc-arm-none-eabi-4_9-2015q3/bin/arm-none-eabi-ranlib liblib__external_lgpl.a

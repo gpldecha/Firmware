@@ -1,0 +1,2 @@
+/opt/gcc-arm-none-eabi-4_9-2015q3/bin/arm-none-eabi-ar qc libmodules__micrortps_bridge__micrortps_client.a  CMakeFiles/modules__micrortps_bridge__micrortps_client.dir/microRTPS_transport.cpp.obj CMakeFiles/modules__micrortps_bridge__micrortps_client.dir/microRTPS_client.cpp.obj CMakeFiles/modules__micrortps_bridge__micrortps_client.dir/microRTPS_client_main.cpp.obj CMakeFiles/modules__micrortps_bridge__micrortps_client.dir/microRTPS_client_dummy.cpp.obj
+/opt/gcc-arm-none-eabi-4_9-2015q3/bin/arm-none-eabi-ranlib libmodules__micrortps_bridge__micrortps_client.a

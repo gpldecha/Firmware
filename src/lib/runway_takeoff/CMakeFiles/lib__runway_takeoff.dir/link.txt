@@ -1,0 +1,2 @@
+/opt/gcc-arm-none-eabi-4_9-2015q3/bin/arm-none-eabi-ar qc liblib__runway_takeoff.a  CMakeFiles/lib__runway_takeoff.dir/RunwayTakeoff.cpp.obj
+/opt/gcc-arm-none-eabi-4_9-2015q3/bin/arm-none-eabi-ranlib liblib__runway_takeoff.a

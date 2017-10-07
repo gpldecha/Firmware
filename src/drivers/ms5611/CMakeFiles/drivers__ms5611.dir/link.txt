@@ -1,0 +1,2 @@
+/opt/gcc-arm-none-eabi-4_9-2015q3/bin/arm-none-eabi-ar qc libdrivers__ms5611.a  CMakeFiles/drivers__ms5611.dir/ms5611_spi.cpp.obj CMakeFiles/drivers__ms5611.dir/ms5611_i2c.cpp.obj CMakeFiles/drivers__ms5611.dir/ms5611.cpp.obj
+/opt/gcc-arm-none-eabi-4_9-2015q3/bin/arm-none-eabi-ranlib libdrivers__ms5611.a

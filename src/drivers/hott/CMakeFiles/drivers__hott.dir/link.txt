@@ -1,0 +1,2 @@
+/opt/gcc-arm-none-eabi-4_9-2015q3/bin/arm-none-eabi-ar qc libdrivers__hott.a  CMakeFiles/drivers__hott.dir/messages.cpp.obj CMakeFiles/drivers__hott.dir/comms.cpp.obj
+/opt/gcc-arm-none-eabi-4_9-2015q3/bin/arm-none-eabi-ranlib libdrivers__hott.a

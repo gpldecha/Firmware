@@ -1,0 +1,2 @@
+/opt/gcc-arm-none-eabi-4_9-2015q3/bin/arm-none-eabi-ar qc libdrivers__sdp3x_airspeed.a  CMakeFiles/drivers__sdp3x_airspeed.dir/SDP3X.cpp.obj CMakeFiles/drivers__sdp3x_airspeed.dir/SDP3X_main.cpp.obj
+/opt/gcc-arm-none-eabi-4_9-2015q3/bin/arm-none-eabi-ranlib libdrivers__sdp3x_airspeed.a

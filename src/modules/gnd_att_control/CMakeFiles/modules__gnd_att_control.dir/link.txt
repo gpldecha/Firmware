@@ -1,0 +1,2 @@
+/opt/gcc-arm-none-eabi-4_9-2015q3/bin/arm-none-eabi-ar qc libmodules__gnd_att_control.a  CMakeFiles/modules__gnd_att_control.dir/GroundRoverAttitudeControl.cpp.obj
+/opt/gcc-arm-none-eabi-4_9-2015q3/bin/arm-none-eabi-ranlib libmodules__gnd_att_control.a
